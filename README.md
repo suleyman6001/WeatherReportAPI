@@ -11,7 +11,7 @@ Prerequisites for installation:
 Installation steps: 
 1) Open the project in your Java IDE
 2) To use this API, you will need to register to https://www.weatherapi.com and get yourself an API KEY.
-3) Go to src/main/resources/application.properties and set spring.datasource.username and spring.datasource.password properties to your DB credentials. Also set weatherapi.apikey to your weatherapi.com API_KEY. This step is important and program will not work without it. 
+3) Go to src/main/resources/application.properties and set spring.datasource.url, spring.datasource.username and spring.datasource.password properties to your DB URL and credentials. Also set weatherapi.apikey to your weatherapi.com API_KEY. This step is important and program will not work without it. 
 4) Run the program
 5) Use Postman or Browser to send GET requests to the URL below. {city_name} is a placeholder and you should replace it with a city name of your choice.
 http://localhost:8081/weatherapi/getWeather/{city_name}
