@@ -2,7 +2,7 @@ This API gets the current weather report for a requested location from weatherap
 
 
 Prerequisites for installation: 
-1) Java IDE (IntelliJ recommended) with JDK 21 (older versions can possible work, but it is not guaranteed) for managing and running the program
+1) Java IDE (IntelliJ recommended) with JDK 21 (JDK 17 can possibly work, but it is not guaranteed) for managing and running the program
 2) MySQL DB to store the weather reports for different locations
 3) Postman or a browser to send requests to the program and to display the response
 4) An account and an API KEY from https://www.weatherapi.com
